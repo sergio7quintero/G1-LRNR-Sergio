@@ -12,7 +12,7 @@ export default function Quiz() {
       <div className="w-full w-auto">
         <h1 className="text-3xl font-bold mb-4 text-left">Quiz Generation Options</h1>
         <p className="mb-4 text-left">Please choose your preferences below to generate your personalized quiz</p>
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form className="space-y-6">
           <div>
             <label className="block mb-2 text-gray-400 text-left">Title</label>
             <select
