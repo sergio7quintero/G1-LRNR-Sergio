@@ -5,7 +5,7 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-[#2894f4] p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-lg font-bold">
           <Link to="/">LRNR</Link>
@@ -39,15 +39,15 @@ const Nav = () => {
           <div className="text-sm">
             <Link
               to="/account"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-400 mr-4"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-black mr-4"
             >
               Account
             </Link>
             <Link
               to="/quiz"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-400"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-black"
             >
-              Quiz
+              Quiz Generation
             </Link>
           </div>
         </div>

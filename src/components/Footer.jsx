@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-    <footer className="bg-gray-800 text-white py-6">
+    <footer className="bg-[#2894f4] text-white py-6">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="w-full md:w-1/2 mb-4 md:mb-0 ml-4 text-left">
           <p className="text-sm ml-8">Embrace the power of our app and unlock the secrets of the universe, one quiz at a time. As I always say, 'Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.'</p>
@@ -42,14 +42,14 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-    <div className="bg-gray-900 text-center py-4">
+    <div className="bg-[#1e7ed1] text-center py-4">
       <p className="text-sm text-white ">
         Made with{" "}
         <a
           href="https://tailwindcss.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-500 hover:text-blue-700"
+          className="text-white hover:text-black"
         >
           Tailwind CSS
         </a>
