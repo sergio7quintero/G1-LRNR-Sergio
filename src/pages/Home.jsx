@@ -9,28 +9,31 @@ export default function Home() {
       <div className="text-center py-16">
         <div className="max-w-3xl mx-auto px-4">
           {/* Logo Container */}
-          <div className="bg-navy-900 rounded-lg p-8 mb-8 inline-block">
-            <div className="flex items-center justify-center bg-blue-500 rounded p-4">
-              <div className="flex items-center">
-                <div className="bg-blue-400 p-2 rounded">
-                  <span className="text-4xl">🐢</span>
+                <div className="bg-navy-900 rounded-lg p-8 mb-8 inline-block">
+                <div className="flex items-center justify-center bg-blue-500 rounded p-4">
+                  <div className="flex items-center">
+                  <div className="bg-blue-400 p-2 rounded">
+                    <span className="text-4xl">🐢</span>
+                  </div>
+                  <div className="text-white text-5xl ml-2">lrnr</div>
+                  </div>
                 </div>
-                <div className="text-white text-5xl ml-2">lrnr</div>
+                </div>
+                
+                <h2 className="text-gray-700 text-2xl mb-8">
+                Your guided path to programming enlightenment
+                </h2>
+                
+                <button 
+                className="bg-emerald-500 text-white px-8 py-3 rounded-md hover:bg-emerald-600 transition-colors cursor-pointer"
+                onClick={() => window.location.href = '/quiz'}
+                >
+                BEGIN JOURNEY
+                </button>
               </div>
-            </div>
-          </div>
-          
-          <h2 className="text-gray-700 text-2xl mb-8">
-            Your guided path to programming enlightenment
-          </h2>
-          
-          <button className="bg-emerald-500 text-white px-8 py-3 rounded-md hover:bg-emerald-600 transition-colors cursor-pointer">
-            BEGIN JOURNEY
-          </button>
-        </div>
-      </div>
+              </div>
 
-      {/* Features Section */}
+              {/* Features Section */}
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Personalized Quizzes */}
