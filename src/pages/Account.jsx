@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Account() {
   return (
-    <div className="max-w-5xl mx-auto py-12">
-      <h1 className="text-7xl font-light text-teal-500 mb-12 text-left">
+    <div className="max-w-5xl mx-auto py-12 min-h-[80vh] flex justify-center items-center flex-col">
+      <h1 className="text-7xl font-light text-teal-500 mb-12 text-left pb-10">
         Account
       </h1>
 
