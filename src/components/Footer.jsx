@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-    <footer className="bg-[#2894f4] text-white py-6">
+    <footer className="bg-[#2894f4] text-white py-6 bottom-0">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-        <div className="w-full md:w-1/2 mb-4 md:mb-0 ml-4 text-left">
-          <p className="text-sm ml-8">Embrace the power of our app and unlock the secrets of the universe, one quiz at a time. As I always say, 'Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.'</p>
+        <div className="w-full text-left m-0">
+          <p className="text-sm">Embrace the power of our app and unlock the secrets of the universe, one quiz at a time. As I always say, 'Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.'</p>
         </div>
         <div className="w-full md:w-1/2 flex flex-col md:flex-row">
           <div className="mb-4 md:mb-0 md:mr-6">
