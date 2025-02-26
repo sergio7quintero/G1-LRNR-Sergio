@@ -28,7 +28,7 @@ export default function Account() {
         <div className="flex-1 mx-8">
           <div className="text-6xl text-teal-400">👤</div>
           <h2 className="text-xl font-semibold mt-4">Irnr Level: 2</h2>
-          <p className="text-gray-600 mt-2">150/200 xp</p>
+          <p className="text-gray-600 mt-2">151/200 xp</p>
         </div>
       </div>
     </div>
