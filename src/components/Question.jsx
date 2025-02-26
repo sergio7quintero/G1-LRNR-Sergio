@@ -44,9 +44,9 @@ export default function Question({ questions }) {
 	};
 
 	return (
-		<div className="flex justify-center items-center min-h-scree min-w-[80vw] pl-10">
+		<div className="flex justify-center items-center min-h-scree min-w-[100%] pl-10">
 			<div className="bg-white text-2xl space-y-4 w-screen">
-				<div className="text-3xl font-bold mb-2 text-teal-600 text-center">
+				<div className="text-5xl font-bold mb-2 text-teal-600 text-center">
 					{" "}
 					{currentQuestionIndex + 1} of {questions.length}
 				</div>
